@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+# NOTE: artifacts/*.pkl must be committed - the app loads them at start-up.

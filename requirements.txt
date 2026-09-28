@@ -1,0 +1,12 @@
+# App
+streamlit>=1.30
+matplotlib
+
+# Pinned to the exact versions used to create the pickled artifacts (see artifacts/metadata.json).
+# Pickled scikit-learn / XGBoost / SHAP objects are version-sensitive - do not loosen these.
+scikit-learn==1.6.1
+xgboost==3.2.0
+shap==0.51.0
+numpy==2.0.2
+pandas==2.3.3
+joblib==1.5.3

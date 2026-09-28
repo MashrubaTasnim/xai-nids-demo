@@ -1,0 +1,29 @@
+{
+  "model_name": "XGBoost",
+  "byte_ratio_cap": 3024.0,
+  "eps": 1e-06,
+  "drop_cols": [
+    "attack_cat",
+    "label",
+    "id"
+  ],
+  "cat_cols": [
+    "proto",
+    "service",
+    "state"
+  ],
+  "n_features": 50,
+  "label_map": {
+    "0": "Normal",
+    "1": "Attack"
+  },
+  "library_versions": {
+    "python": "3.12.13",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "joblib": "1.5.3"
+  }
+}
