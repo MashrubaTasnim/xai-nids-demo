@@ -46,6 +46,12 @@ Use **Python 3.12** to match the environment the artifacts were created in. The 
 `requirements.txt` are pinned on purpose: pickled scikit-learn / XGBoost / SHAP objects are
 version-sensitive, and `artifacts/metadata.json` records the exact versions used.
 
+## Troubleshooting
+
+On managed/corporate Windows machines, security policies (Device Guard) may block `pyarrow`. If
+tables fail to render, note this app already uses plain HTML tables instead of `st.dataframe`/
+`st.table` for that reason.
+
 ## Deploy (Streamlit Community Cloud)
 
 1. Push this folder to a GitHub repository.
