@@ -4,7 +4,7 @@ An interactive demo of **XAI-NIDS**, a leakage-controlled and statistically vali
 machine-learning framework for network intrusion detection. Enter (or upload) network-flow records,
 get an **Attack / Normal** verdict from an XGBoost model, and see **why** through SHAP explanations.
 
-**Live demo:** _add your Streamlit link here_
+   **Live demo:** https://xai-nids-demo.streamlit.app/
 
 ## What it does
 
